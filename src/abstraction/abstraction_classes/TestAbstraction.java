@@ -28,6 +28,7 @@ public class TestAbstraction {
             }if (phone.isConvertible()) c++;
         }
         System.out.println("The most expensive phone is = "+mostExpensive.getClass().getSimpleName());
+        System.out.println("The color of the most expensive phone is "+ mostExpensive.color);
         System.out.println(c);
 
         System.out.println(IPhone.OS);
