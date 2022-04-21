@@ -18,6 +18,8 @@ public class TestAbstraction {
         phones.add(n1);
         phones.add(i1);
 
+        System.out.println(Bluetooth.getYear());
+
         int c = 0;
         int max = Integer.MIN_VALUE;
         Phone mostExpensive = null;
